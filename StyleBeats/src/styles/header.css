@@ -1,0 +1,107 @@
+:root{
+  --corprimaria:#063675;
+}
+
+*{
+ transition: all 1s;
+}
+
+header{
+  padding: 0%;
+  margin: 0%;
+  background-color: var(--corprimaria);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  gap:15px;
+}
+
+header > img{
+  width: 100%;
+  height: 100%;
+}
+
+#logo {
+  height: 100%;
+}
+
+#logo img{
+  width:100%;
+  height: 100%;
+}
+
+#search{
+  display: grid;
+  place-items: center;
+  width:50%;
+  height: 100%;
+  transition: all 0.5;
+}
+
+#search > input{
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+  border: none;
+  outline:0px;
+  transition: all 0.5;
+}
+
+#search > input:hover{
+  height: 55%;
+  transition: all .1s;
+
+}
+
+
+#search > input:focus{
+  outline:auto;
+  text-align: left;
+  padding-left: 2%;
+}
+
+article > #carousel{
+  width: 100%;
+  height: 40vh;
+}
+
+#carousel{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  width: 100vh;
+  height: 40vh;
+}
+
+#container-photos{
+ 
+  display: flex;
+  flex-direction: row;
+}
+
+#carousel > #container-photos > div{ 
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+
+}
+
+#carousel > #container-photos > div > img{
+  width: 100vw;
+  height: 100%;
+}
+
+.style-container-photos{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
